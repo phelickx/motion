@@ -21,6 +21,7 @@
 
         <!-- Animate Css -->
         <link rel="stylesheet" href="css/animate.min.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
         <!-- Materialdesign icons Css -->
         <link href="css/materialdesignicons.min.css" rel="stylesheet">
@@ -140,7 +141,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="section_title text-center">
-                            <h3><span class="font-weight-bold">About</span> Us</h3>
+                            <h3 data-aos="zoom-in"><span class="font-weight-bold">About</span> Us</h3>
                             <div class="vr_line mx-auto d-block"></div>
                             <p class="sec_subtitle mx-auto text-muted pt-2">We live in constant motion to the moon</p>
                             <br>
@@ -152,11 +153,11 @@
             </div>
             <div class="row">
                  <div class="col-lg-6">
-                      <img src="img/about.png" class="card-img-top">
+                      <img src="img/about.png" class="card-img-top" data-aos="fade-right">
                  </div>
                  <div class="col-lg-5">
                       <div class="container">
-                           <div class="about-content">
+                           <div class="about-content wow fadeInUp" data-wow-delay="0.5s" data-aos="fade-up">
                                <h3>motion token</h3>
                                <p>
                                 Motion token is a Community driven, fair Launched BSC Token Created to enrich it's holders. Your grow richer as you hodle because Motion token is always in upward motion, we've mooned several times, we represent the future of Cryptocurrency and we are the next 1000X token.
@@ -176,7 +177,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="section_title text-center text-white">
-                            <h3><span class="font-weight-bold">Tokenomics</span></h3>
+                            <h3 data-aos="zoom-in"><span class="font-weight-bold">Tokenomics</span></h3>
                             <div class="vr_line mx-auto d-block"></div>
                             <p class="sec_subtitle mx-auto pt-2"></p>
                         </div>
@@ -184,25 +185,25 @@
                 </div>
                 <div class="row mt-3">
                     <div class="col-lg-3 mt-3">
-                        <div class="logo_img">
+                        <div class="logo_img" data-aos="fade-up">
                             <img src="img/1.png" alt="logo-img" class="mx-auto img-fluid d-block">
                             <p>Total supply: 1,000,000</p>
                         </div>
                     </div>
                     <div class="col-lg-3 mt-3">
-                        <div class="logo_img">
+                        <div class="logo_img" data-aos="fade-up">
                             <img src="img/2.png" alt="logo-img" class="mx-auto img-fluid d-block">
                             <p>10% Burned</p>
                         </div>
                     </div>
                     <div class="col-lg-3 mt-3">
-                        <div class="logo_img">
+                        <div class="logo_img" data-aos="fade-up">
                             <img src="img/3.png" alt="logo-img" class="mx-auto img-fluid d-block">
                             <p>5% BNB Reward to holders</p>
                         </div>
                     </div>
                     <div class="col-lg-3 mt-3">
-                        <div class="logo_img">
+                        <div class="logo_img" data-aos="fade-up">
                             <img src="img/4.png" alt="logo-img" class="mx-auto img-fluid d-block">
                             <p>LP Locked</p>
                         </div>
@@ -217,16 +218,16 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="section_title text-center">
-                            <h3>Our Latest <span class="font-weight-bold">News</span></h3>
+                        <div class="section_title text-center" data-aos="zoom-in">
+                            <h3>Our <span class="font-weight-bold">Roadmap</span></h3>
                             <div class="vr_line mx-auto d-block"></div>
-                            <p class="sec_subtitle mx-auto text-muted pt-2">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p class="sec_subtitle mx-auto text-muted pt-2"></p>
                         </div>
                     </div>
                 </div>
                 <div class="row mt-3">
                     <div class="col-lg-4">
-                        <div class="blog_box_contant mt-3">
+                        <div class="blog_box_contant mt-3" data-aos="fade-up">
                             <div class="bolg_img p-2">
                                 <img src="img/blog/blog1.jpg" alt="Responsive img" class="img-fluid rounded">
                             </div>
@@ -242,7 +243,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="blog_box_contant mt-3">
+                        <div class="blog_box_contant mt-3" data-aos="fade-up">
                             <div class="bolg_img p-2">
                                 <img src="img/blog/blog2.jpg" alt="Responsive img" class="img-fluid rounded">
                             </div>
@@ -256,7 +257,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="blog_box_contant mt-3">
+                        <div class="blog_box_contant mt-3" data-aos="fade-up">
                             <div class="bolg_img p-2">
                                 <img src="img/blog/blog3.jpg" alt="Responsive img" class="img-fluid rounded">
                             </div>
@@ -278,7 +279,7 @@
             <div class="container">
                 <div class="row pt-5 pb-5">
                     <div class="col-lg-12">
-                        <div class="text-center footer_about">
+                        <div class="text-center footer_about" data-aos="fade-up">
                             <h3 class="text-white font-weight-bold mb-0">Let's Get In Touch</h3>
                             <p class="mx-auto mt-4 mb-0">You can connect with us on social media with the links below.</p>
                         </div>
@@ -301,6 +302,15 @@
         </footer>
         <!-- End Footer -->    
         <!-- JAVASCRIPTS -->
+        <script src="js/aos.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                easing: 'ease-in-out-sine'
+            });
+          </script>
+        <script src="js/easing.min.js"></script>
+        <script src="js/wow.min.js"></script>
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/popper.min.js"></script>
@@ -314,6 +324,7 @@
 
         <!-- magnific js -->
         <script src="js/jquery.magnific-popup.min.js"></script>
+       
 
         <!-- Particles Js -->
         <script src="js/particles.js"></script>  
